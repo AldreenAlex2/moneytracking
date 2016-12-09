@@ -1,0 +1,58 @@
+<div class="row">
+	<div class="col-md-5">
+		<form action="" method="POST">
+			<div class="form-group">
+				<label for="nombre">Nombre:</label>
+				<input class="form-control" value="Javier Perez" readonly type="text" required placeholder="Leticia..." name="nombre" autofocus disabled>
+			</div>
+			<div class="form-group">
+				<label for="correo">Correo electrónico:</label>
+				<input class="form-control" type="email" name="correo" disabled>
+			</div>
+			<div class="form-group">
+				<label for="busqueda">Búsqueda:</label>
+				<input class="form-control" type="search" name="busqueda">
+			</div>
+			<div class="form-group">
+				<label for="edad">Edad:</label>
+				<input class="form-control" type="number" name="edad" max="120" min="18">
+			</div>
+			<div class="form-group">
+				<label for="fecha">Fecha:</label>
+				<input class="form-control" type="date" name="fecha" max="2016-12-10" min="2016-12-06">
+			</div>
+			<div class="form-group">
+				<label for="pagina">Página:</label>
+				<input class="form-control" type="url" name="pagina">
+			</div>
+			<div class="form-group">
+				<label for="telefono">Teléfono:</label>
+				<input class="form-control" type="tel" name="telefono">
+			</div>
+			<div class="form-group">
+				<label for="navegadores">Navegadores:</label>
+				<input list="navegadores" class="form-control">
+				<datalist id="navegadores">
+					<option value="Internet Explorer">
+					<option value="Firefox">
+					<option value="Chrome">
+					<option value="Opera">
+					<option value="Safari">
+				</datalist>
+			</div>
+			<div class="form-group">
+				<label for="cal">Calificación:</label>
+				<input class="form-control" type="range" name="cal">
+			</div>
+			<div class="form-group">
+				<label for="cp">CP:</label>
+				<input class="form-control" type="text" name="cp" pattern="[0-9]{5}" title="Inserte un código postal válido">
+			</div>
+			<div class="form-group">
+				<button class="btn btn-default" type="button" onclick="alert('Hola mundo');">Click aquí!</button>
+				<input class="btn btn-success" type="submit" value="Enviar">
+				<input class="btn btn-primary" type="reset" value="Limpiar">
+			</div>
+		</form>	
+	</div>
+</div>
